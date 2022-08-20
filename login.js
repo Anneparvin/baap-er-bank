@@ -15,12 +15,12 @@ const password = passwordField.value;
 // DANGER: do not verify email password on the client side
 // step: 4 verify email and  password and check whether valid use or not
 if(email ==="sontan@baap.com" && password ==="secret"){
-    window.location.href = "./bank.html";
+    window.location.href = "./trustbank.html";
 }
 else{
     alert("Please enter your email address");
 }
-})
+});
 
 
 
